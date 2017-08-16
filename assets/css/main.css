@@ -16,6 +16,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 0;
     font-size: 100%;
     font: inherit;
+    font-family: Microsoft JhengHei;
     vertical-align: baseline;
 }
 
@@ -1336,7 +1337,7 @@ a {
     transition: color 0.2s ease, border-bottom 0.2s ease;
     text-decoration: none;
     border-bottom: dotted 1px;
-    color: inherit;
+    color: #a0a0a0;
 }
 
 a:hover {
@@ -2814,11 +2815,12 @@ body.is-loading #header.alt .logo {
 }
 
 #nav ul li a:hover {
-    background-color: rgba(222, 222, 222, 0.25);
+    background-color: #eaf5fc;
 }
 
 #nav ul li a.active {
-    background-color: #ffffff;
+    background-color: #c2e2f7;
+    color: #353535;
     box-shadow: none;
 }
 
@@ -2853,8 +2855,8 @@ body.is-loading #header.alt .logo {
 /* Main */
 
 #main {
-    background-color: #ffffff;
-    color: #636363;
+    background-color: #404040;
+    color:#cccccc;
     border-radius: 0.25em;
 }
 
@@ -2871,7 +2873,7 @@ body.is-loading #header.alt .logo {
 }
 
 #main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-    color: #636363;
+    color: #ffffff;
 }
 
 #main blockquote {
